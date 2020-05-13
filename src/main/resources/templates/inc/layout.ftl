@@ -20,12 +20,12 @@
 </head>
 <body>
 
-    <#include "/inc/common.ftl" />
-    <#include "/inc/header.ftl" />
+    <#include "common.ftl" />
+    <#include "header.ftl" />
 
     <#nested >
 
-<#include "/inc/footer.ftl" />
+<#include "footer.ftl" />
 
 <script>
     // layui.cache.page = '';
