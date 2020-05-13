@@ -1,6 +1,6 @@
 package com.github.jerome.service;
 
-import com.github.jerome.entity.MPost;
+import com.github.jerome.entity.UserAction;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author 公众号：java思维导图
  * @since 2020-05-14
  */
-public interface MPostService extends IService<MPost> {
+public interface UserActionService extends IService<UserAction> {
 
 }

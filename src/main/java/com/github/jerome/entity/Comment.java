@@ -12,51 +12,44 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-public class MCategory extends BaseEntity {
+public class Comment extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
     /**
-     * 标题
-     */
-    private String name;
-
-    /**
-     * 内容描述
+     * 评论的内容
      */
     private String content;
 
-    private String summary;
-
     /**
-     * 图标
-     */
-    private String icon;
-
-    /**
-     * 该分类的内容数量
-     */
-    private Integer postCount;
-
-    /**
-     * 排序编码
-     */
-    private Integer orderNum;
-
-    /**
-     * 父级分类的ID
+     * 回复的评论ID
      */
     private Long parentId;
 
     /**
-     * SEO关键字
+     * 评论的内容ID
      */
-    private String metaKeywords;
+    private Long postId;
 
     /**
-     * SEO描述内容
+     * 评论的用户ID
      */
-    private String metaDescription;
+    private Long userId;
+
+    /**
+     * “顶”的数量
+     */
+    private Integer voteUp;
+
+    /**
+     * “踩”的数量
+     */
+    private Integer voteDown;
+
+    /**
+     * 置顶等级
+     */
+    private Integer level;
 
 
 }

@@ -1,6 +1,6 @@
 package com.github.jerome.mapper;
 
-import com.github.jerome.entity.MUserAction;
+import com.github.jerome.entity.UserAction;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -8,6 +8,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @date 2020-05-14 00:27
  * @description
  */
-public interface MUserActionMapper extends BaseMapper<MUserAction> {
+public interface UserActionMapper extends BaseMapper<UserAction> {
 
 }

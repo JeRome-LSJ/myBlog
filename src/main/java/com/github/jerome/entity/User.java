@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-public class MUser extends BaseEntity {
+public class User extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 

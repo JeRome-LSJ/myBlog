@@ -11,7 +11,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-public class MUserMessage extends BaseEntity {
+public class UserMessage extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 

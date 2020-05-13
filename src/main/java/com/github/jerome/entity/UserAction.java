@@ -12,7 +12,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-public class MUserAction extends BaseEntity {
+public class UserAction extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 

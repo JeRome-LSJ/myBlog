@@ -1,8 +1,8 @@
 package com.github.jerome.service.impl;
 
-import com.github.jerome.entity.MComment;
-import com.github.jerome.mapper.MCommentMapper;
-import com.github.jerome.service.MCommentService;
+import com.github.jerome.entity.UserAction;
+import com.github.jerome.mapper.UserActionMapper;
+import com.github.jerome.service.UserActionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2020-05-14
  */
 @Service
-public class MCommentServiceImpl extends ServiceImpl<MCommentMapper, MComment> implements MCommentService {
+public class UserActionServiceImpl extends ServiceImpl<UserActionMapper, UserAction> implements UserActionService {
 
 }

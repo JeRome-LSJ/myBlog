@@ -1,7 +1,7 @@
 package com.github.jerome.service;
 
-import com.github.jerome.entity.MUser;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.github.jerome.entity.Comment;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author 公众号：java思维导图
  * @since 2020-05-14
  */
-public interface MUserService extends IService<MUser> {
+public interface CommentService extends IService<Comment> {
 
 }

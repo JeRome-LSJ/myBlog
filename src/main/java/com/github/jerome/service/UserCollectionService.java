@@ -1,6 +1,6 @@
 package com.github.jerome.service;
 
-import com.github.jerome.entity.MCategory;
+import com.github.jerome.entity.UserCollection;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author 公众号：java思维导图
  * @since 2020-05-14
  */
-public interface MCategoryService extends IService<MCategory> {
+public interface UserCollectionService extends IService<UserCollection> {
 
 }

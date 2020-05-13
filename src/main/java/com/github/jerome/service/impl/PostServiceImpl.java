@@ -1,9 +1,9 @@
 package com.github.jerome.service.impl;
 
-import com.github.jerome.entity.MCategory;
-import com.github.jerome.mapper.MCategoryMapper;
-import com.github.jerome.service.MCategoryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.github.jerome.entity.Post;
+import com.github.jerome.mapper.PostMapper;
+import com.github.jerome.service.PostService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2020-05-14
  */
 @Service
-public class MCategoryServiceImpl extends ServiceImpl<MCategoryMapper, MCategory> implements MCategoryService {
+public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements PostService {
 
 }

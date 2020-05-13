@@ -1,6 +1,6 @@
 package com.github.jerome.service;
 
-import com.github.jerome.entity.MComment;
+import com.github.jerome.entity.Post;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author 公众号：java思维导图
  * @since 2020-05-14
  */
-public interface MCommentService extends IService<MComment> {
+public interface PostService extends IService<Post> {
 
 }

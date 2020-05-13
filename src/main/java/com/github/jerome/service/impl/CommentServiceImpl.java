@@ -1,9 +1,9 @@
 package com.github.jerome.service.impl;
 
-import com.github.jerome.entity.MUser;
-import com.github.jerome.mapper.MUserMapper;
-import com.github.jerome.service.MUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.github.jerome.entity.Comment;
+import com.github.jerome.mapper.CommentMapper;
+import com.github.jerome.service.CommentService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2020-05-14
  */
 @Service
-public class MUserServiceImpl extends ServiceImpl<MUserMapper, MUser> implements MUserService {
+public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment> implements CommentService {
 
 }

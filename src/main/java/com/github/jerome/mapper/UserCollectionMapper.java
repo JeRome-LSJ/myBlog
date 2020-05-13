@@ -1,6 +1,6 @@
 package com.github.jerome.mapper;
 
-import com.github.jerome.entity.MUserMessage;
+import com.github.jerome.entity.UserCollection;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -8,6 +8,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @date 2020-05-14 00:27
  * @description
  */
-public interface MUserMessageMapper extends BaseMapper<MUserMessage> {
+public interface UserCollectionMapper extends BaseMapper<UserCollection> {
 
 }
