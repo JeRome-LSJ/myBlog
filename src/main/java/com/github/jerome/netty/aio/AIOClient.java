@@ -1,4 +1,4 @@
-package netty.aio;
+package com.github.jerome.netty.aio;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;

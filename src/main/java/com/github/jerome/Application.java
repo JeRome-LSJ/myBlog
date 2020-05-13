@@ -1,4 +1,4 @@
-package com.github.jerome.myBlog;
+package com.github.jerome;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
