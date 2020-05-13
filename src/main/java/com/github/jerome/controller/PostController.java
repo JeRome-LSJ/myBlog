@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-05-14
  */
 @RestController
-@RequestMapping("/m-user-message")
-public class MUserMessageController extends BaseController {
+@RequestMapping("/m-post")
+public class PostController extends BaseController {
 
 }

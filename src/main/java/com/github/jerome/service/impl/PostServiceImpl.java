@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.github.jerome.entity.Post;
 import com.github.jerome.mapper.PostMapper;
 import com.github.jerome.service.PostService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -17,4 +18,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements PostService {
 
+    @Autowired
+    PostMapper postMapper;
 }

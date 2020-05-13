@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.github.jerome.entity.UserCollection;
 import com.github.jerome.mapper.UserCollectionMapper;
 import com.github.jerome.service.UserCollectionService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +17,6 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserCollectionServiceImpl extends ServiceImpl<UserCollectionMapper, UserCollection> implements UserCollectionService {
-
+    @Autowired
+    UserCollectionMapper userCollectionMapper;
 }

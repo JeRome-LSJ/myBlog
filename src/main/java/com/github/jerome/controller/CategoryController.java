@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-05-14
  */
 @RestController
-@RequestMapping("/m-user")
-public class MUserController extends BaseController {
+@RequestMapping("/m-category")
+public class CategoryController extends BaseController {
 
 }

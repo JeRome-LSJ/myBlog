@@ -4,6 +4,7 @@ import com.github.jerome.entity.UserAction;
 import com.github.jerome.mapper.UserActionMapper;
 import com.github.jerome.service.UserActionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +17,6 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserActionServiceImpl extends ServiceImpl<UserActionMapper, UserAction> implements UserActionService {
-
+    @Autowired
+    UserActionMapper userActionMapper;
 }

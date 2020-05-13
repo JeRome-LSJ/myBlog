@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-05-14
  */
 @RestController
-@RequestMapping("/m-user-action")
-public class MUserActionController extends BaseController {
+@RequestMapping("/m-comment")
+public class CommentController extends BaseController {
 
 }
